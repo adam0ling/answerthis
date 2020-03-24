@@ -1,0 +1,8 @@
+runtime: python37
+
+instance_class: F1
+
+automatic_scaling:
+    max_instances: 10
+
+entrypoint: gunicorn -b 0.0.0.0:8080 main:server
