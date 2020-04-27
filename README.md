@@ -8,4 +8,5 @@ It is trained on Yahoo answers data taken from: https://github.com/LC-John/Yahoo
 
 Front-end application done using plotly dash: https://plotly.com/dash/  
 
-You're free to use the code.
+# Want to make your own?
+Here's a full tutorial on that: https://github.com/adam0ling/nlp_app
