@@ -88,6 +88,13 @@ app.layout = html.Div([
                 'textAlign': 'center',
                 'color': colors['text'],
                 'padding':10}),
+    html.Div(['Give it a bit of time to get going.'],style={
+                'textAlign': 'center',
+                'color': colors['text'],
+                'padding':10}),
+    html.Div([
+        'More info and code:',
+        html.A('GitHub', href='https://github.com/adam0ling/answerthis', target="_blank"),
     html.Div(
         [
         dbc.Modal(
